@@ -1,0 +1,17 @@
+#sectt{
+    background-image: url(./pexels-junior-teixeira-2047905\ \(2\).jpg);
+    background-size: 100%;
+    width: 50%;
+}
+
+
+
+
+
+@media screen and (max-width:600px){
+    #sectt{
+        background-image: url(./pexels-rahul-716398.jpg);
+        background-size: 100% 100%;
+        width: 90%;
+    }
+}

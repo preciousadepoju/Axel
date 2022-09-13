@@ -1,0 +1,37 @@
+@keyframes flipInX {
+  from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    transform: perspective(400px);
+  }
+}
+
+#flipInX {
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+  transition:3s;
+  animation-timing-function:ease ease-in;
+  -webkit-animation-name: flipInX;
+  animation-duration: 15s;
+  animation-delay: 1ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+}

@@ -1,0 +1,68 @@
+#sect1{
+    width: 25%;
+    height: 50vh;  
+    margin-top: 20vh;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 1px black;
+    cursor: pointer;
+    background-image:url(./pexels-engin-akyurt-1446948.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+#spann{
+    font-weight: 900;
+    font-family:fantasy;
+    font-size: 2.2em;
+    color: rgb(209, 205, 205);
+    text-shadow:0px 3px 4px rgb(112, 92, 92);
+    cursor: pointer;
+}
+#inp1{
+    border-radius: 10px;
+   
+}
+#inp2{
+    border-radius:10px;
+    
+}
+#btnn{
+    font-weight: 900;
+    border-color: rgb(202, 145, 145);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+@media screen and (max-width:600px) {
+    #sect1{
+        width: 60%;
+        height: 55vh;  
+        margin-top: 20vh;
+        border-radius: 10px;
+        box-shadow: 1px 2px 8px 1px black;
+        cursor: pointer;
+        background-image:url(./pexels-engin-akyurt-1446948.jpg);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+    }
+    #spann{
+        font-weight: 900;
+        font-family:fantasy;
+        font-size: 2em;
+        color: rgb(209, 205, 205);
+        text-shadow:0px 3px 4px rgb(112, 92, 92);
+        cursor: pointer;
+    }
+    #inp1{
+        border-radius: 10px;
+       
+    }
+    #inp2{
+        border-radius:10px;
+        
+    }
+    #btnn{
+        font-weight: 900;
+        border-color: rgb(202, 145, 145);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
